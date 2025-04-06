@@ -14,7 +14,7 @@ header {
     padding: 10px 20px;
 }
 header img {
-    height: 50px;
+    vertical-align: middle;
 }
 header h1 {
     flex-grow: 1;
@@ -23,6 +23,13 @@ header h1 {
 }
 main {
     padding: 20px;
+}
+.logo-fia {
+    height: 50px;
+  }
+  
+.logo-f1 {
+    height: 30px;
 }
 .tabs {
     display: flex;
@@ -63,6 +70,12 @@ th, td {
     padding: 10px;
     text-align: center;
 }
-img.foto, img.logo {
-    height: 40px;
+img.foto {
+    height: 80px;
+    object-fit: cover;
+}
+
+img.logo {
+    height: 50px; 
+    object-fit: contain;
 }
