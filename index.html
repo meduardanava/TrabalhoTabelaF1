@@ -22,6 +22,7 @@
       <button onclick="showTable('japao')">GP do Japão</button>
       <button onclick="showTable('perfil_pilotos')">Pilotos</button>
       <button onclick="showTable('equipes')">Equipes</button>
+      <button onclick="showTable('pontuacao')">Pontuação</button>
     </div>
 
     <div id="pilotos" class="tabela-container active">
@@ -974,6 +975,68 @@
             <td><img src="img/equipes/racing_bulls.png" class="logo" alt="Racing Bulls"></td>
             <td>Racing Bulls</td>
             <td>Itália</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div id="pontuacao" class="tabela-container">
+      <h2>Sistema de Pontuação da Fórmula 1</h2>
+
+      <h3>Como funciona a pontuação dos pilotos</h3>
+      <p>Os pontos são atribuídos aos 10 primeiros colocados de cada corrida conforme a tabela abaixo:</p>
+    
+      <table>
+        <thead>
+          <tr>
+            <th>Posição</th>
+            <th>Pontos</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>1º</td><td>25</td></tr>
+          <tr><td>2º</td><td>18</td></tr>
+          <tr><td>3º</td><td>15</td></tr>
+          <tr><td>4º</td><td>12</td></tr>
+          <tr><td>5º</td><td>10</td></tr>
+          <tr><td>6º</td><td>8</td></tr>
+          <tr><td>7º</td><td>6</td></tr>
+          <tr><td>8º</td><td>4</td></tr>
+          <tr><td>9º</td><td>2</td></tr>
+          <tr><td>10º</td><td>1</td></tr>
+        </tbody>
+      </table>
+    
+      <h3>Como funciona a pontuação das equipes (Construtores)</h3>
+      <p>Cada equipe soma os pontos obtidos pelos dois pilotos em cada corrida. Exemplo:</p>
+    
+      <table>
+        <thead>
+          <tr>
+            <th>Equipe</th>
+            <th>Piloto 1 (posição)</th>
+            <th>Piloto 2 (posição)</th>
+            <th>Pontos da equipe</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Red Bull</td>
+            <td>1º (25 pts)</td>
+            <td>3º (15 pts)</td>
+            <td>40</td>
+          </tr>
+          <tr>
+            <td>Mercedes</td>
+            <td>4º (12 pts)</td>
+            <td>5º (10 pts)</td>
+            <td>22</td>
+          </tr>
+          <tr>
+            <td>Ferrari</td>
+            <td>2º (18 pts)</td>
+            <td>6º (8 pts)</td>
+            <td>26</td>
           </tr>
         </tbody>
       </table>

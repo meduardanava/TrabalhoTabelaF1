@@ -48,8 +48,14 @@ main {
 .tabs button.active {
     background-color: #f00;
 }
+.tabs button:hover {
+    background-color: #f00;
+}
 .tabela-container {
     display: none;
+    width: 75%;
+    margin: auto;
+    cursor: default;
 }
 .tabela-container.active {
     display: block;
