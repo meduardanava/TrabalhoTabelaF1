@@ -6,7 +6,7 @@ body {
     padding: 0;
 }
 header {
-    background-color: #f00;
+    background-color: #e10600;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -46,10 +46,10 @@ main {
     border-radius: 4px;
 }
 .tabs button.active {
-    background-color: #f00;
+    background-color: #e10600;
 }
 .tabs button:hover {
-    background-color: #f00;
+    background-color: #e10600;
 }
 .tabela-container {
     display: none;
